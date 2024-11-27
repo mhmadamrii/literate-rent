@@ -30,7 +30,7 @@
 
 ## 🚨 Tutorial
 
-This repository contains the code corresponding to an in-depth tutorial available on our YouTube channel, <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><b>JavaScript Mastery</b></a>. 
+This repository contains the code corresponding to an in-depth tutorial available on our YouTube channel, <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><b>JavaScript Mastery</b></a>.
 
 If you prefer visual learning, this is the perfect resource for you. Follow our tutorial to learn how to build projects like these step-by-step in a beginner-friendly manner!
 
@@ -66,7 +66,7 @@ If you're getting started and need assistance or face any bugs, join our active 
 
 👉 **Responsive Website Design**: The website is designed to be visually pleasing and responsive, ensuring an optimal user experience across various devices.
 
-and many more, including code architecture and reusability 
+and many more, including code architecture and reusability
 
 ## <a name="quick-start">🤸 Quick Start</a>
 
@@ -121,103 +121,103 @@ Open [http://localhost:3000](http://localhost:3000) in your browser to view the 
 
 ```typescript
 export const manufacturers = [
-  "Acura",
-  "Alfa Romeo",
-  "Aston Martin",
-  "Audi",
-  "Bentley",
-  "BMW",
-  "Buick",
-  "Cadillac",
-  "Chevrolet",
-  "Chrysler",
-  "Citroen",
-  "Dodge",
-  "Ferrari",
-  "Fiat",
-  "Ford",
-  "GMC",
-  "Honda",
-  "Hyundai",
-  "Infiniti",
-  "Jaguar",
-  "Jeep",
-  "Kia",
-  "Lamborghini",
-  "Land Rover",
-  "Lexus",
-  "Lincoln",
-  "Maserati",
-  "Mazda",
-  "McLaren",
-  "Mercedes-Benz",
-  "MINI",
-  "Mitsubishi",
-  "Nissan",
-  "Porsche",
-  "Ram",
-  "Rolls-Royce",
-  "Subaru",
-  "Tesla",
-  "Toyota",
-  "Volkswagen",
-  "Volvo",
+  'Acura',
+  'Alfa Romeo',
+  'Aston Martin',
+  'Audi',
+  'Bentley',
+  'BMW',
+  'Buick',
+  'Cadillac',
+  'Chevrolet',
+  'Chrysler',
+  'Citroen',
+  'Dodge',
+  'Ferrari',
+  'Fiat',
+  'Ford',
+  'GMC',
+  'Honda',
+  'Hyundai',
+  'Infiniti',
+  'Jaguar',
+  'Jeep',
+  'Kia',
+  'Lamborghini',
+  'Land Rover',
+  'Lexus',
+  'Lincoln',
+  'Maserati',
+  'Mazda',
+  'McLaren',
+  'Mercedes-Benz',
+  'MINI',
+  'Mitsubishi',
+  'Nissan',
+  'Porsche',
+  'Ram',
+  'Rolls-Royce',
+  'Subaru',
+  'Tesla',
+  'Toyota',
+  'Volkswagen',
+  'Volvo',
 ];
 
 export const yearsOfProduction = [
-  { title: "Year", value: "" },
-  { title: "2015", value: "2015" },
-  { title: "2016", value: "2016" },
-  { title: "2017", value: "2017" },
-  { title: "2018", value: "2018" },
-  { title: "2019", value: "2019" },
-  { title: "2020", value: "2020" },
-  { title: "2021", value: "2021" },
-  { title: "2022", value: "2022" },
-  { title: "2023", value: "2023" },
+  { title: 'Year', value: '' },
+  { title: '2015', value: '2015' },
+  { title: '2016', value: '2016' },
+  { title: '2017', value: '2017' },
+  { title: '2018', value: '2018' },
+  { title: '2019', value: '2019' },
+  { title: '2020', value: '2020' },
+  { title: '2021', value: '2021' },
+  { title: '2022', value: '2022' },
+  { title: '2023', value: '2023' },
 ];
 
 export const fuels = [
   {
-    title: "Fuel",
-    value: "",
+    title: 'Fuel',
+    value: '',
   },
   {
-    title: "Gas",
-    value: "Gas",
+    title: 'Gas',
+    value: 'Gas',
   },
   {
-    title: "Electricity",
-    value: "Electricity",
+    title: 'Electricity',
+    value: 'Electricity',
   },
 ];
 
 export const footerLinks = [
   {
-    title: "About",
+    title: 'About',
     links: [
-      { title: "How it works", url: "/" },
-      { title: "Featured", url: "/" },
-      { title: "Partnership", url: "/" },
-      { title: "Bussiness Relation", url: "/" },
+      { title: 'How it works', url: '/' },
+      { title: 'Featured', url: '/' },
+      { title: 'Partnership', url: '/' },
+      { title: 'Bussiness Relation', url: '/' },
     ],
   },
   {
-    title: "Company",
+    title: 'Company',
     links: [
-      { title: "Events", url: "/" },
-      { title: "Blog", url: "/" },
-      { title: "Podcast", url: "/" },
-      { title: "Invite a friend", url: "/" },
+      { title: 'Events', url: '/' },
+      { title: 'Blog', url: '/' },
+      { title: 'Podcast', url: '/' },
+      { title: 'Invite a friend', url: '/' },
     ],
   },
   {
-    title: "Socials",
+    title: 'Socials',
     links: [
-      { title: "Discord", url: "/" },
-      { title: "Instagram", url: "/" },
-      { title: "Twitter", url: "/" },
-      { title: "Facebook", url: "/" },
+      { title: 'Discord', url: '/' },
+      { title: 'Instagram', url: '/' },
+      { title: 'Twitter', url: '/' },
+      { title: 'Facebook', url: '/' },
     ],
   },
 ];
@@ -229,7 +229,7 @@ export const footerLinks = [
 <summary><code>globals.css</code></summary>
 
 ```css
-@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -239,7 +239,7 @@ export const footerLinks = [
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Manrope", sans-serif;
+  font-family: 'Manrope', sans-serif;
 }
 
 /* START: General styles */
@@ -459,33 +459,33 @@ export const footerLinks = [
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    "./pages/**/*.{js,ts,jsx,tsx,mdx}",
-    "./components/**/*.{js,ts,jsx,tsx,mdx}",
-    "./app/**/*.{js,ts,jsx,tsx,mdx}",
+    './pages/**/*.{js,ts,jsx,tsx,mdx}',
+    './components/**/*.{js,ts,jsx,tsx,mdx}',
+    './app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
-  mode: "jit",
+  mode: 'jit',
   theme: {
     extend: {
       fontFamily: {
-        inter: ["Inter", "sans-serif"],
+        inter: ['Inter', 'sans-serif'],
       },
       colors: {
-        "black-100": "#2B2C35",
-        "primary-blue": {
-          DEFAULT: "#2B59FF",
-          100: "#F5F8FF",
+        'black-100': '#2B2C35',
+        'primary-blue': {
+          DEFAULT: '#2B59FF',
+          100: '#F5F8FF',
         },
-        "secondary-orange": "#f79761",
-        "light-white": {
-          DEFAULT: "rgba(59,60,152,0.03)",
-          100: "rgba(59,60,152,0.02)",
+        'secondary-orange': '#f79761',
+        'light-white': {
+          DEFAULT: 'rgba(59,60,152,0.03)',
+          100: 'rgba(59,60,152,0.02)',
         },
-        grey: "#747A88",
+        grey: '#747A88',
       },
       backgroundImage: {
-        'pattern': "url('/pattern.png')",
-        'hero-bg': "url('/hero-bg.png')"
-      }
+        pattern: "url('/pattern.png')",
+        'hero-bg': "url('/hero-bg.png')",
+      },
     },
   },
   plugins: [],
