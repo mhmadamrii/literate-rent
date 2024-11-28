@@ -7,7 +7,10 @@ import { useRouter } from 'next/navigation';
 import SearchManufacturer from './SearchManufacturer';
 
 const SearchButton = ({ otherClasses }: { otherClasses: string }) => (
-  <button type="submit" className={`-ml-3 z-10 ${otherClasses}`}>
+  <button
+    type="submit"
+    className={`-ml-3 z-10 border rounded-full hover:bg-slate-400 ${otherClasses}`}
+  >
     <Image
       src={'/magnifying-glass.svg'}
       alt={'magnifying glass'}
